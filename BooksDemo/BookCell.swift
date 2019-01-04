@@ -15,7 +15,7 @@ class BookCell: UITableViewCell {
             self.authorLabel.text = author
             self.authorLabel.isHidden = true
         } else {
-            self.authorLabel.isHidden = true
+            self.authorLabel.isHidden = false
         }
 
         if let url = book.imageURL {
